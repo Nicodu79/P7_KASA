@@ -1,0 +1,9 @@
+@import './Home.css';
+@import './Header.css';
+@import './NoPage.css';
+@import './Footer.css';
+@import './Banner.css';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
