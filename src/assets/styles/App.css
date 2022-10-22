@@ -3,6 +3,7 @@
 @import './NoPage.css';
 @import './Footer.css';
 @import './Banner.css';
+@import './Card.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
