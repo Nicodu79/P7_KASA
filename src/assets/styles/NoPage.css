@@ -2,11 +2,30 @@
     color: #FF6060;
 }
 
+.Nopage-container {
+    height: 100vh;
+}
+
 h1 {
     text-align: center;
+    font-size: 250px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 
 p {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+a.redirect {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.link {
     text-align: center;
 }

@@ -5,11 +5,13 @@ import Header from "../components/Header";
 
 const NoPage = () => {
     return (
-        <div>
+        <div className="Nopage-container">
             <Header />
             <h1>404</h1>
             <p>Oups! La page que vous demandez n'existe pas.</p>
-            <NavLink to="/" className="redirect">Retourner sur la page d'accueil</NavLink>
+            <div className="link">
+                <NavLink to="/" className="redirect">Retourner sur la page d'accueil</NavLink>
+            </div>
             <Footer />
 
         </div>

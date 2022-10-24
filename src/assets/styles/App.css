@@ -4,7 +4,9 @@
 @import './Footer.css';
 @import './Banner.css';
 @import './Card.css';
+@import './Dropdown.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
