@@ -5,6 +5,7 @@
 @import './Banner.css';
 @import './Card.css';
 @import './Dropdown.css';
+@import './Carrousel.css';
 
 * {
     font-family: 'Montserrat', sans-serif;
