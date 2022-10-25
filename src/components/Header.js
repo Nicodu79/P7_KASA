@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header>
              {/* Les images importées depuis la balise IMG sont accessibles dans "public*/}
-             <img src="./assets/logo/LOGO.png" alt="logo kasa" />
+             <img src="../assets/logo/LOGO.png" alt="logo kasa" />
         <nav>  
             <NavLink to="/">Accueil</NavLink>
             <NavLink to="/Apropos">A propos</NavLink>  

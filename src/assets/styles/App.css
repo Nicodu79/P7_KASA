@@ -6,6 +6,8 @@
 @import './Card.css';
 @import './Dropdown.css';
 @import './Carrousel.css';
+@import './LogementData.css';
+@import './Tag.css';
 
 * {
     font-family: 'Montserrat', sans-serif;

@@ -20,4 +20,6 @@ footer {
   #footer-container > p {
     color: #ffffff;
     text-align: center;
+    font-size: 1.1rem;
+    margin-top: 20px;
   }

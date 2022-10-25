@@ -8,7 +8,7 @@ const Dropdown = ({title, description}) => {
             <div className="header-dropdown">
                 <div className="dropdown-title">{title}</div>
                 <div className={`arrow-dropdown ${open}`} onClick={() => setOpen(!open)}>
-                    <img src="./assets/logo/arrow_down.png" alt="Ouvrir la liste" />
+                    <img src="../assets/logo/arrow_down.png" alt="Ouvrir la liste" />
                 </div>
             </div>
             {

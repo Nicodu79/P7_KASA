@@ -25,7 +25,7 @@ const Carrousel = ({ images }) => {
     return (
         <div className="carrousel">
             {
-                imgNumber > 1 && <img className="arrow left-arrow" src="./assets/logo/arrow_left.png" alt="contenu précédent" onClick={imgPrevious} />
+                imgNumber > 1 && <img className="arrow left-arrow" src="../assets/logo/arrow_left.png" alt="contenu précédent" onClick={imgPrevious} />
             }
             {
                 images.map((image, index) => {
@@ -35,7 +35,7 @@ const Carrousel = ({ images }) => {
                 })
             }
             {
-                imgNumber > 1 && <img className="arrow right-arrow" src="./assets/logo/arrow_right.png" alt="contenu suivant" onClick={imgNext} />
+                imgNumber > 1 && <img className="arrow right-arrow" src="../assets/logo/arrow_right.png" alt="contenu suivant" onClick={imgNext} />
             }
         </div>
     );
