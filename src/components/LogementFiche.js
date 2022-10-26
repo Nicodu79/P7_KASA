@@ -56,7 +56,7 @@ function LogementFiche() {
                         </div>
                         <div className="description-equipements">
                             <Dropdown title="Description" description={logementData.description}/>
-                            <Dropdown title="Équipements" description={logementEquipement}/>
+                            <Dropdown title="Equipements" description={logementEquipement}/>
                         </div>
                     </div>
                 ) : <Navigate replace to="/NoPage"/>

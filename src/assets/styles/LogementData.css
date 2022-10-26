@@ -13,12 +13,14 @@
 }
 
 .titre-logement {
-    font-size: 36px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .lieu-logement {
     display: block;
     font-size: 18px;
+    margin-top: 6px;
     margin-bottom: 25px;
 }
 
@@ -55,14 +57,17 @@
 }
 
 .description-equipements {
-    display: inline-flex;
-    gap: 0 75px;
+    display: flex;
     line-height: 22.5px;
     list-style: none;
     margin-top: 25px;
     width: 100%;
 }
 
-.description-equipements > .dropdown {
+.description-equipements li {
+
+}
+
+.description-equipements .dropdown {
     width: 50%;
 }

@@ -32,3 +32,26 @@
     position: absolute;
 
 }
+
+
+@media screen and (max-width: 1050px) {
+    .liste-logements {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media screen and (max-width: 740px) {
+    .liste-logements {
+        background-color: white;
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+
+    .card {
+        min-height: 255px;
+    }
+
+
+}

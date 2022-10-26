@@ -7,7 +7,6 @@ header {
 
 header > img {
     height: 45px;
-    margin-left: 50px;
 
 }
 
@@ -15,7 +14,7 @@ nav {
     justify-content: flex-end;
     display: flex;
     width: 100%;
-    margin-right: 70px;
+    margin-right: 10px;
 }
 
 nav a{
@@ -27,4 +26,19 @@ nav a{
 nav a:hover {
     font-weight: bold;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1050px) {
+    header > img {
+        height: 40px;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 740px) {
+    header > img {
+        height: 35px;
+    }
 }
