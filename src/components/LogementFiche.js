@@ -34,12 +34,12 @@ function LogementFiche() {
         return <li key={index}>{equipment}</li>
     });
 
-    return(
+    return (
         <>
             {
                 logementData ? (
                     <div className="data">
-                        <Carrousel images={logementData.pictures}/>
+                        <Carrousel images={logementData.pictures} />
                         <div className="proprietaire-logement">
                             <div className="information-logement">
                                 <span className="titre-logement">{logementData.title}</span>
@@ -49,21 +49,21 @@ function LogementFiche() {
                             <div className="proprietaire-note">
                                 <div className="proprietaire-informations">
                                     <span className="nom-proprietaire">{logementData.host.name}</span>
-                                    <img className="photo-propietaire" src={logementData.host.picture} alt="Proprietaire"/>
+                                    <img className="photo-propietaire" src={logementData.host.picture} alt="Proprietaire" />
                                 </div>
                                 <div className="note">{logementNotation}</div>
                             </div>
                         </div>
                         <div className="description-equipements">
-                            <Dropdown title="Description" description={logementData.description}/>
-                            <Dropdown title="Equipements" description={logementEquipement}/>
+                            <Dropdown title="Description" description={logementData.description} />
+                            <Dropdown title="Equipements" description={logementEquipement} />
                         </div>
                     </div>
-                ) : <Navigate replace to="/NoPage"/>
+                ) : <Navigate replace to="/NoPage" />
             }
         </>
     )
-                             
+
 }
 
 export default LogementFiche;

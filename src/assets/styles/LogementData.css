@@ -1,11 +1,10 @@
-
 .proprietaire-logement {
     display: inline-flex;
     width: 100%;
 }
 
-.proprietaire-logement > div {
-    flex: 1 0 auto;
+.proprietaire-logement>div {
+    flex: auto;
 }
 
 .information-logement {
@@ -61,13 +60,50 @@
     line-height: 22.5px;
     list-style: none;
     margin-top: 25px;
-    width: 100%;
 }
 
-.description-equipements li {
-
-}
 
 .description-equipements .dropdown {
-    width: 50%;
+    width: 60%;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .proprietaire-logement {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 740px) {
+    .lieu-logement {
+        margin-bottom: 15px;
+    }
+
+    .proprietaire-logement {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .proprietaire-note {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .star {
+        height: 15px;
+        width: 15px;
+    }
+
+    .description-equipements {
+        margin-top: 10px;
+    }
+
+    .description-equipements .dropdown {
+        width: 100%;
+    }
+    
 }

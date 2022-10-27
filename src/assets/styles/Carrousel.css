@@ -38,3 +38,20 @@
 .carrousel-img.actif {
     display: block;
 }
+
+
+
+@media screen and (max-width: 740px) {
+    .carrousel {
+        height: 280px;
+    }
+    .arrow {  
+        width: 25px;   
+    }
+
+    .carrousel-img {
+        height: 280px;
+    }
+
+
+}

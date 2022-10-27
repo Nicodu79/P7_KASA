@@ -1,69 +1,65 @@
 .dropdown {
-    border-radius: 5px;
-    margin-bottom: 35px;
-    text-align: center;
-    height: 25%;
-  }
-  
+  border-radius: 5px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.header-dropdown {
+  align-items: center;
+  background-color: #ff6060;
+  border-radius: 5px;
+  display: inline-flex;
+  height: 25%;
+  min-height: 50px;
+  width: 90%;
+}
+
+.dropdown-title {
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px 10px;
+}
+
+.arrow-dropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.arrow-dropdown.true {
+  justify-content: start;
+  transform: rotate(-180deg);
+}
+
+.dropdown-description {
+  background-color: #f6f6f6;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #ff6060;
+  width: 90%;
+  height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  min-height: 100px;
+  padding: 25px 10px 10px 10px;
+}
+
+@media screen and (max-width: 740px) {
   .header-dropdown {
-    background-color: #ff6060;
-    border-radius: 5px;
-    display: inline-flex;
-    align-items: center;
-    min-height: 50px;
-    width: 80%;
-  }
-  
-  .dropdown-title {
-    color: #ffffff;
-    height: 50px;
-    font-size: 1.3rem;
-    line-height: 50px;
-    margin: 5px 15px;
-  }
-  
-  .arrow-dropdown {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 15px;
     width: 100%;
   }
-  .arrow-dropdown.true {
-    justify-content: start;
-    transform: rotate(-180deg);
-  }
-  
-  .dropdown-description {
-    background-color: #f6f6f6;
-    border-radius: 0px 0px 5px 5px;
-    margin-top: -5px;
-    color: #ff6060;
-    font-size: 1.3rem;
-    display: inline-flex;
-    align-items: center;
-    line-height: 30px;
-    height: 75%;
-    width: 80%;
-    min-height: 100px;
-    padding: 25px 10px 10px 10px;
-  }
 
-
-
-  @media screen and (max-width: 740px) {
-    .header-dropdown {
-      width: 100%;
-    }
-
-    .dropdown {
-      margin-bottom: 20px;
-    }
-
-    .dropdown-description {
-      width: 100%;
-      font-size: 1rem;
-      text-align: left;
-    }
-    
+  .description-equipements {
+    flex-direction: column;
 }
-  
+
+  .dropdown-description {
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+}
