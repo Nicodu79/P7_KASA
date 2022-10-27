@@ -7,8 +7,11 @@ import Tag from './Tag';
 
 function LogementFiche() {
     // Récuperer une fiche logement spécifique
-    const id = useParams();
-    const logementData = ListeLogements.find(logement => logement.id === id.id);
+    const params = useParams();
+    //console.log(params.id)
+    const logementData = ListeLogements.find(logement => logement.id === params.id);
+    //console.log(logementData.id)
+    
 
     // Tags
     const logementTags = logementData.tags.map((tags, index) => {
