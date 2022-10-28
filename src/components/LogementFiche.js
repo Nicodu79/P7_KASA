@@ -13,6 +13,10 @@ function LogementFiche() {
     //console.log(logementData.id)
     
 
+    if(!logementData) {
+        return <Navigate to="/NoPage" />
+    }
+
     // Tags
     const logementTags = logementData.tags.map((tags, index) => {
         return <Tag key={index} tagData={tags} />
